@@ -83,6 +83,7 @@ int main() {
 
     printDivisibleByThree(file, file2);
     fclose(file);
+    fclose(file2);
 
     FILE *file3 = fopen("phone_numbers_max_weighted_sum.txt", "w");
     if (file3 == NULL) {
