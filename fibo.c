@@ -35,9 +35,9 @@ int main() {
         fibo[i] = 0;
     }
     uint64_t result = calcFibo(n);
-    for(int i = 0; i <= n; i++) {
-        printf("fibo[%d] = %" PRIu64 "\n", i, fibo[i]);
-    }
+    // for(int i = 0; i <= n; i++) {
+    //     printf("fibo[%d] = %" PRIu64 "\n", i, fibo[i]);
+    // }
     printf("Result: %" PRIu64 "\n", result);
     free(fibo);
     return 0;

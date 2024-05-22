@@ -24,13 +24,6 @@ int main()
         {634,544,393,0,0},
         {544,595,0,388,0}
     };
-/*     int m[N][N] = {
-        {0,174,315,634,544},
-        {174,0,152,544,592},
-        {315,152,0,393,449},
-        {634,544,393,0,388},
-        {544,595,449,388,0}
-    }; */
     int StartingC;
     printf("Select a city:\n Timisoara-0\n Oradea-1\n Cluj-Napoca-2\n Iasi-3\n Bucuresti-4\nType here the number coresponding to the city: ");
 
